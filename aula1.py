@@ -1,4 +1,5 @@
-print('Hello World!')
-print('Atenção.')
+print('Hello World!');
+print('Atenção.');
+print('teste');
 
 
