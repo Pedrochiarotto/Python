@@ -15,10 +15,11 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
-palavra_secret = 'Peru'
+palavra_secret = 'cinema'
 palavra = 0
 tentativa = 0
 letracorreta = ''
+letra_ja_foi = ''
 
 for i in range(1000):
     letra =input('Digite uma letra ')
@@ -35,6 +36,10 @@ for i in range(1000):
             print(letra)
         else:
             print('*')
+            letra_ja_foi += letra
+    print(f'Letras que ja foram: {letra_ja_foi}')
+            
+
     if palavra == len(palavra_secret):
         print ("Voce descobriu todas as letras da Palavra!") 
         break
