@@ -15,7 +15,7 @@ Faça a contagem de tentativas do seu
 usuário.
 """
 
-palavra_secret = 'pedro'
+palavra_secret = 'Xamuel'
 palavra = 0
 tentativa = 0
 
@@ -30,7 +30,7 @@ for i in range(1000):
         palavra+=1
     else:
         print('*')
-    if palavra == 5:
+    if palavra == len(palavra_secret):
         print ("Voce descobriu todas as letras da Palavra!") 
         break
     tentativa+=1
@@ -39,12 +39,12 @@ for i in range(1000):
 
 for i in range (100):
     correta = input("Qual eh a palavra correta? ")
-    if correta == "pedro":
+    if correta == palavra_secret:
          print("Resposta correta!")
          break
     else:
         print("Resposta incorreta!")
         
     
-        
+    
 
