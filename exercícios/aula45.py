@@ -32,13 +32,12 @@ for i in range(1000):
         palavra+=1
         letracorreta = letracorreta + letra
         
-
+    palavra_formada = ''
     for letra in palavra_secret:
         if letra in letracorreta:
-            print(letra)
+            palavra_formada += letra
         else:
-            print('*')
-            
+            palavra_formada += '*'
     print(f'Letras que ja foram: {letra_ja_foi}')
             
 
@@ -47,6 +46,7 @@ for i in range(1000):
         break
     tentativa+=1
     print("Números de tentativas: " f'{tentativa}')
+    print (palavra_formada)
     
 
 for i in range (100):
