@@ -14,6 +14,7 @@ na palavra secreta.
 Faça a contagem de tentativas do seu
 usuário.
 """
+import os
 
 palavra_secret = 'kirsty'
 palavra = 0
