@@ -3,7 +3,7 @@
 
 lista = [] 
 while(True):
-    r = str(input("Selecione uma opção: \n [i]-Inserir [a]-Apagar [l]-Listar"))
+    r = str(input("Selecione uma opção: \n [i]-Inserir [a]-Apagar [l]-Listar\n"))
     if r == 'i': 
         valor = input("Valor: ")
         lista.append(valor)
