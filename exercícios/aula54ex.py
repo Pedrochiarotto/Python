@@ -17,7 +17,8 @@ while(True):
         if len(lista) == 0:
             print("Lista vazia")
         else: 
-            print(lista)
+            for indice, valor in enumerate(lista):
+                print(indice,lista)
     else:
         print("Escolha alguma das opções (i, a ou l)")
     
