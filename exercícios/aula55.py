@@ -4,6 +4,7 @@ Double-precision floating-point format IEEE 754
 https://en.wikipedia.org/wiki/Double-precision_floating-point_format
 https://docs.python.org/pt-br/3/tutorial/floatingpoint.html
 """
+
 import decimal
 
 numero_1 = decimal.Decimal('0.1')
